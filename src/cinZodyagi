@@ -1,4 +1,4 @@
-    Çin zodyağı hesaplanırken kişinin doğum yılının 12 ile bölümünde kalana göre bulunur.
+  /*  Çin zodyağı hesaplanırken kişinin doğum yılının 12 ile bölümünde kalana göre bulunur.
 
     Doğum Tarihi %12 = 0 ➜ Maymun
     Doğum Tarihi %12 = 1 ➜ Horoz
@@ -16,7 +16,7 @@
 
 import java.util.Scanner;
 
-public class Odev15 {
+public class cinZodyagi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Doğum Yılınızı Giriniz: ");
